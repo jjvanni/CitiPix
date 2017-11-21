@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 // ------- input submission ------
-	$('#submit-btn').click(function() {
+	$('#submit-btn').click(function(event) {
 		event.preventDefault();
     	var cityName = $('#city-type').val();
     	$('#city-type').val('');
